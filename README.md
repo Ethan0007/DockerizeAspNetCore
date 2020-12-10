@@ -10,14 +10,14 @@ Developer: Docker, Inc.
 ## Requirements   
  * .NET Core 3.1  
  * VSCode  
- * Docker  
+ * Docker  20.10.0
  
 ## Running the application:  
 1. Run Docker on your local machine.
-1. docker build -t asp-net-core-docker-test:v1 . 
+2. docker build -t asp-net-core-docker-test:v1 . 
    - it will download images for aspnet 3.1 and sdk 3.1 (wait until the download done).
-2. to verify the image enter command:  docker images
-3. to run the image enter the command: docker run -t --rm -p:9090:80 asp-net-core-docker-test:v1
+3. to verify the image enter command:  docker images
+4. to run the image enter the command: docker run -t --rm -p:9090:80 asp-net-core-docker-test:v1
 
  ## License 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
